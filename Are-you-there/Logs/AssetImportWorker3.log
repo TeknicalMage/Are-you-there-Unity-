@@ -1,0 +1,404 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16222 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/elmim/Documents/Sentip/Are-you-there-Unity-/Are-you-there
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+65137
+Successfully changed project path to: C:/Users/elmim/Documents/Sentip/Are-you-there-Unity-/Are-you-there
+C:/Users/elmim/Documents/Sentip/Are-you-there-Unity-/Are-you-there
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 116.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/elmim/Documents/Sentip/Are-you-there-Unity-/Are-you-there/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007338 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 103.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Domain Reload Profiling:
+	ReloadAssembly (796ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (566ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005649 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\elmim\Documents\Sentip\Are-you-there-Unity-\Are-you-there\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\elmim\Documents\Sentip\Are-you-there-Unity-\Are-you-there\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.592 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1594ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1335ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (496ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (588ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (391ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.1 KB). Loaded Objects now: 3826.
+Memory consumption went from 115.9 MB to 115.8 MB.
+Total: 4.417500 ms (FindLiveObjects: 0.439200 ms CreateObjectMapping: 0.417600 ms MarkObjects: 3.451800 ms  DeleteObjects: 0.107700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 694738.417596 seconds.
+  path: Assets/DeskClutterKit/Meshes/mesh_coffeemug.FBX
+  artifactKey: Guid(0c179b762acd6b04ca8b85ab6367ab98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Meshes/mesh_coffeemug.FBX using Guid(0c179b762acd6b04ca8b85ab6367ab98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec3b56a34bca67cb579eb4ecdbb2485') in 0.467818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DeskClutterKit/Meshes/mesh_coffeemugfull.FBX
+  artifactKey: Guid(1ca6030709c265a4ca8e384d2b6c06ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Meshes/mesh_coffeemugfull.FBX using Guid(1ca6030709c265a4ca8e384d2b6c06ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b6878dbaa8b29be6b3b906bad11ed0') in 0.052032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/DeskClutterKit/Meshes/mesh_deskphone.FBX
+  artifactKey: Guid(1c70edd6c1038404ea88b190b9c6691e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Meshes/mesh_deskphone.FBX using Guid(1c70edd6c1038404ea88b190b9c6691e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fae68b1c29f10a2ddf34f7416cdccc') in 0.027022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DeskClutterKit/Meshes/mesh_pencil.FBX
+  artifactKey: Guid(f9d4f53525f485a4c91f180800f9bb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Meshes/mesh_pencil.FBX using Guid(f9d4f53525f485a4c91f180800f9bb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad72cdee442dd191cc1052da43ab9ca7') in 0.023612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/DeskClutterKit/Meshes/mesh_keyboard.FBX
+  artifactKey: Guid(58d5f9763a12d5b48b428a6c351e67fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Meshes/mesh_keyboard.FBX using Guid(58d5f9763a12d5b48b428a6c351e67fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed508b5f4611e85fecd00a41967e2059') in 0.029542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/DeskClutterKit/Meshes/mesh_usbstick.FBX
+  artifactKey: Guid(76a7c280d9eb3fc47a92cca8605e0e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Meshes/mesh_usbstick.FBX using Guid(76a7c280d9eb3fc47a92cca8605e0e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b7e4a709eb6e1680ff253690730588') in 0.033512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DeskClutterKit/Meshes/mesh_pen.FBX
+  artifactKey: Guid(db53b09c8c9a98641ab7cd823972c9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Meshes/mesh_pen.FBX using Guid(db53b09c8c9a98641ab7cd823972c9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce020958f9a34a0ecc27c510b8414dd1') in 0.032918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DeskClutterKit/Meshes/mesh_monitor.FBX
+  artifactKey: Guid(854bb3aa3634ce946adbbf2b85df6b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Meshes/mesh_monitor.FBX using Guid(854bb3aa3634ce946adbbf2b85df6b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f15a988ef71b303bf19782666848a8') in 0.033729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.584364 seconds.
+  path: Assets/DeskClutterKit/Prefabs/pref_coffeemug.prefab
+  artifactKey: Guid(a87ed6ae8e795d04eae2ee71cf6a6d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Prefabs/pref_coffeemug.prefab using Guid(a87ed6ae8e795d04eae2ee71cf6a6d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863c3894c361857a29fdbd4d448ee2d3') in 0.477900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DeskClutterKit/Prefabs/pref_pencil.prefab
+  artifactKey: Guid(16a85fceece7725419a4092049a23b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Prefabs/pref_pencil.prefab using Guid(16a85fceece7725419a4092049a23b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f0253873d2daa320a46788571443fb') in 0.037578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/DeskClutterKit/Prefabs/pref_pen.prefab
+  artifactKey: Guid(c4751db262ea6c7409a77830bfe61bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Prefabs/pref_pen.prefab using Guid(c4751db262ea6c7409a77830bfe61bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1496075216635cb933c3cb8f69db14fd') in 0.033374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DeskClutterKit/Prefabs/pref_usbstick.prefab
+  artifactKey: Guid(ed9d71469acd0404cb246e4fd33945d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Prefabs/pref_usbstick.prefab using Guid(ed9d71469acd0404cb246e4fd33945d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12027c082192b3c95936d4667d7e7c37') in 0.025711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/DeskClutterKit/Prefabs/pref_monitor.prefab
+  artifactKey: Guid(439e7be39be6be140adf435b8ac10cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Prefabs/pref_monitor.prefab using Guid(439e7be39be6be140adf435b8ac10cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce64b07e9583e529a7b5a31bb76a27d') in 0.059629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/DeskClutterKit/Prefabs/pref_mouse.prefab
+  artifactKey: Guid(5f5c45515738bbe45804a37acf0e0aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Prefabs/pref_mouse.prefab using Guid(5f5c45515738bbe45804a37acf0e0aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a81903f47d226db32a6594dcf5e4a40') in 0.046533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/DeskClutterKit/Prefabs/pref_computer.prefab
+  artifactKey: Guid(59ec1400be3179f49ae6864c96897019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Prefabs/pref_computer.prefab using Guid(59ec1400be3179f49ae6864c96897019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75dab7631b20e7a4e144649fe08215fe') in 0.045049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/DeskClutterKit/Prefabs/pref_pencilholder.prefab
+  artifactKey: Guid(224622a3921dbb04f94191f415bf2ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Prefabs/pref_pencilholder.prefab using Guid(224622a3921dbb04f94191f415bf2ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bddbf308258298bc28912c61b8993d2') in 0.361308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.530595 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_calculator_MetallicSmoothness.tga
+  artifactKey: Guid(2116d78feaad0d442ad8d6fea4d7c189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_calculator_MetallicSmoothness.tga using Guid(2116d78feaad0d442ad8d6fea4d7c189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9ea4d3a76097c81d50e76f48b587e1') in 0.037246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_stapler_MetallicSmoothness.tga
+  artifactKey: Guid(dc655f102bb43f34a9ea9f558753a650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_stapler_MetallicSmoothness.tga using Guid(dc655f102bb43f34a9ea9f558753a650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973b5aebc7c16ab1b07959ee5fa98f4c') in 0.017610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_monitor_MetallicSmoothness.tga
+  artifactKey: Guid(610c4414eb6befe4c9ee4f21ddcded15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_monitor_MetallicSmoothness.tga using Guid(610c4414eb6befe4c9ee4f21ddcded15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f123ce8bf833324d65faaeb8a71583e') in 0.022598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_computer_MetallicSmoothness.tga
+  artifactKey: Guid(25f73bb577e18b649b36a90dd3753316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_computer_MetallicSmoothness.tga using Guid(25f73bb577e18b649b36a90dd3753316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e16b5a351c60dd76bb728a7fcd5820') in 0.022416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_calculator_Normal.tga
+  artifactKey: Guid(64e888ac99ffe114eb9d1fd32aaa3b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_calculator_Normal.tga using Guid(64e888ac99ffe114eb9d1fd32aaa3b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5267a7aec86c3e71d7b553573463968f') in 0.028300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_computer_Emission.tga
+  artifactKey: Guid(8ebe6890f1af94b469ac69b080306213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_computer_Emission.tga using Guid(8ebe6890f1af94b469ac69b080306213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c2f0b67acb82409fd2992358c72d33') in 0.020637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_stapler_Normal.tga
+  artifactKey: Guid(360d093d2589e0a4097e2f44126e0823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_stapler_Normal.tga using Guid(360d093d2589e0a4097e2f44126e0823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab716b852fcc21f155c6afc94e09b89') in 0.017475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_monitor_AlbedoTransparency.tga
+  artifactKey: Guid(4b4dc77de32e6424f92f730fa939ba2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_monitor_AlbedoTransparency.tga using Guid(4b4dc77de32e6424f92f730fa939ba2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f07c655d416d10dbe3c3de609ce1fc') in 0.029944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_tapedispenser_Normal.tga
+  artifactKey: Guid(8e657ffc40a5fc5419103e43336d4196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_tapedispenser_Normal.tga using Guid(8e657ffc40a5fc5419103e43336d4196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649dfadb55dbfe67a011e204a4900140') in 0.025061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_keyboardmouse_AlbedoTransparency.tga
+  artifactKey: Guid(e02e786572c758249bf8f25974280018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_keyboardmouse_AlbedoTransparency.tga using Guid(e02e786572c758249bf8f25974280018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c3337b14387be97e8e88330db24d4b') in 0.026793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_stapler_AlbedoTransparency.tga
+  artifactKey: Guid(7678cd3317cba994eb25f5bb634b1dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_stapler_AlbedoTransparency.tga using Guid(7678cd3317cba994eb25f5bb634b1dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995c8f7d1f04b7a857e5754ca937ac74') in 0.020034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_coffeemug_AlbedoTransparency.tga
+  artifactKey: Guid(26671037366817744890760b1223176c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_coffeemug_AlbedoTransparency.tga using Guid(26671037366817744890760b1223176c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444104cedbae17a2c21be2abbdbfc660') in 0.017339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_deskphone-tilted_Normal.tga
+  artifactKey: Guid(3bc3ca56520aaa3408797ad3c8d0eb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_deskphone-tilted_Normal.tga using Guid(3bc3ca56520aaa3408797ad3c8d0eb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d5ffc27dd3a1e72b6ef283e8155f6f') in 0.021026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_usbstick_AlbedoTransparency.tga
+  artifactKey: Guid(8f7471f4099ebcf4fa59a27e7c1b889f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_usbstick_AlbedoTransparency.tga using Guid(8f7471f4099ebcf4fa59a27e7c1b889f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf066836312e100c852483e18409735f') in 0.022220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_pencilholder_MetallicSmoothness.tga
+  artifactKey: Guid(0a1307c104b2ee54abd708aaafa9037f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_pencilholder_MetallicSmoothness.tga using Guid(0a1307c104b2ee54abd708aaafa9037f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c13e530bfb041bae1bff9e5af495a2') in 0.018632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_coffeemug_Normal.tga
+  artifactKey: Guid(299c2e8408d490c4eb820f4c48b3616a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_coffeemug_Normal.tga using Guid(299c2e8408d490c4eb820f4c48b3616a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35dc4a0bfe6bb5e38fa1940f7cf52cf3') in 0.019677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_tapedispenser_AlbedoTransparency.tga
+  artifactKey: Guid(2f5d89219f8599048ad4bf8ae7c84aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_tapedispenser_AlbedoTransparency.tga using Guid(2f5d89219f8599048ad4bf8ae7c84aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85fb040dd662ccdbcdf25355b4212c7') in 0.026390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_filetray_Normal.tga
+  artifactKey: Guid(7129a9d00b3200c4aa6fe8198a888478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_filetray_Normal.tga using Guid(7129a9d00b3200c4aa6fe8198a888478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1771bfabb7548b2d92b413b284bf76') in 0.023664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DeskClutterKit/Textures/tex_mesh_keyboardmouse_MetallicSmoothness.tga
+  artifactKey: Guid(e8335c06e4ea2524da5030ed4a0596ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Textures/tex_mesh_keyboardmouse_MetallicSmoothness.tga using Guid(e8335c06e4ea2524da5030ed4a0596ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7901f2741ff8a7359893bc9d83129883') in 0.020517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.447125 seconds.
+  path: Assets/DeskClutterKit/Materials/mat_coffeemug.mat
+  artifactKey: Guid(b3ef510ede459ed49a9cb7c413d5069c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Materials/mat_coffeemug.mat using Guid(b3ef510ede459ed49a9cb7c413d5069c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08af0ef1af065bc097b1965029879554') in 0.054469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DeskClutterKit/Materials/mat_mousekeyboard.mat
+  artifactKey: Guid(bb834d369f6c05345bae4ceeb5eff8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Materials/mat_mousekeyboard.mat using Guid(bb834d369f6c05345bae4ceeb5eff8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bd144a6568cb994524ad6fe2278001') in 0.040440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/DeskClutterKit/Materials/mat_stapler.mat
+  artifactKey: Guid(f3ee502d3c8e1ea4e9de6cc3f345b773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Materials/mat_stapler.mat using Guid(f3ee502d3c8e1ea4e9de6cc3f345b773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205b3d0311c9446d8e87499553d01fa3') in 0.027215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DeskClutterKit/Materials/mat_deskphone.mat
+  artifactKey: Guid(fd0e2f03edae6d24cae72c4066be212d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Materials/mat_deskphone.mat using Guid(fd0e2f03edae6d24cae72c4066be212d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2577c6d4f3134ac21fb1d14082d2a3') in 0.052564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/DeskClutterKit/Materials/mat_computer.mat
+  artifactKey: Guid(6cb0866761484a9489ee5d4a896f6140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeskClutterKit/Materials/mat_computer.mat using Guid(6cb0866761484a9489ee5d4a896f6140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293c63fc7c4a52d88f5d7dd63742d354') in 0.164344 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
