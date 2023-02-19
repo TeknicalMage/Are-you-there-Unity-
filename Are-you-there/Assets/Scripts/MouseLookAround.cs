@@ -49,7 +49,11 @@ public class MouseLookAround : MonoBehaviour
 
             _rotationY += mouseX;
             _rotationX += mouseY;
-            
+
+            //Camera Rotation limits
+            _rotationX = Mathf.Clamp(_rotationX, -60f, 60f);
+            _rotationY = Mathf.Clamp(_rotationY, -75f, 75f);
+            //Camera Rotation limits
         }
 
 
